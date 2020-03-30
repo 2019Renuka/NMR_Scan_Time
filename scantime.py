@@ -180,7 +180,9 @@ if __name__ == "__main__":
     output_name = args.output_name
 
     if os.path.exists(input_dir) == False:
-        print('The directory doesnot exists!!!!')
+        print("\n\t\t\t++++++++++++++++++++++++++++++++++++++++++")
+        print('\t\t\t+  The given directory doesnot exists!!!!  +')
+        print("\t\t\t++++++++++++++++++++++++++++++++++++++++++++\n")
         parser.print_help()
         sys.exit()
 
